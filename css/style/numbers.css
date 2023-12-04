@@ -1,0 +1,36 @@
+.numbers {
+    position: relative;
+    background-image: url('../../images/background/background/background2.jpg');
+    height: 250px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.number-content {
+    overflow: hidden;
+    text-align: center;
+    padding: 75px;
+}
+
+.number-item {
+    float: left;
+    width: 25%;
+}
+
+.number-item i {
+    color: var(--mainColor);
+    text-align: center;
+}
+
+.number-item .title {
+    color: var(--secondColor);
+    font-weight: bold;
+    font-size: 27px;
+
+}
+
+.number-item .desc {
+    color: var(--secondColor);
+
+
+}

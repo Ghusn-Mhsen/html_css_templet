@@ -1,0 +1,38 @@
+.About-content {
+    overflow: hidden;
+}
+
+.about-item {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 50px 20px;
+    border: 1px solid #88888885;
+}
+
+.about-item.item-center {
+    margin: 0 5%;
+}
+
+.about-item .icon {
+    color: var(--mainColor);
+}
+
+.about-item-tittle {
+    text-transform: capitalize;
+    transition: color .5s;
+}
+
+.about-item:hover .about-item-tittle {
+    color: var(--secondColor);
+}
+
+.about-item-desc {
+    line-height: 1.5;
+    color: #899;
+}
+
+.about-item-link {
+    color: var(--mainColor);
+    text-transform: capitalize;
+}

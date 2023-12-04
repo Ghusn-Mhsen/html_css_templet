@@ -1,0 +1,39 @@
+.footer {
+    background-color: #000000d1;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.footer-link {
+
+    height: 70px;
+    text-align: center;
+}
+
+.footer-link li {
+    display: inline-block;
+    line-height: 70px;
+
+}
+
+.footer-link li a {
+    background-color: var(--mainColor);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 13px;
+    margin: 0 5px;
+
+
+}
+
+.footer-link li a i {
+    color: var(--secondColor);
+    line-height: 40px;
+}
+.footer p{
+    margin-top: 20px;
+    color:  var(--grayColor);
+    text-transform: uppercase;
+    font-size: 16px;
+}

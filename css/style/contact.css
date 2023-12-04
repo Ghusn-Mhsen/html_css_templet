@@ -1,0 +1,81 @@
+.contact-section {
+    text-align: center;
+}
+
+.contact-content {
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.contact-content .contact-item {
+    float: left;
+    width: 30%;
+}
+
+.contact-content .contact-item.item-center {
+    margin: 0 5%;
+}
+
+.contact-content .contact-item i {
+    color: var(--mainColor);
+    margin: 10px;
+}
+
+.contact-content .contact-item .item-tittle {
+    text-transform: capitalize;
+    margin: 6px;
+}
+
+.contact-content .contact-item .item-desc {
+    color: #999;
+    margin: 6px;
+}
+
+
+
+.contact-input input {
+    width: 30%;
+    border: none;
+    height: 30px;
+    padding-left: 15px;
+    background-color: #88999924;
+
+}
+
+.contact-input input.item-center {
+    margin-right: 5%;
+
+}
+
+.contact-section .subject {
+    display: block;
+    width: 60%;
+    margin: auto;
+    border: none;
+    height: 30px;
+    padding-left: 15px;
+    background-color: #88999924;
+}
+
+.contact-section .message {
+    width: 60%;
+    height: 100px;
+    margin-top: 30px;
+    padding-left: 15px;
+    background-color: #88999924;
+    border: none;
+}
+
+.contact-section button {
+    display: block;
+    width: 13%;
+    height: 35px;
+    text-align: center;
+    background-color: var(--mainColor);
+    color: var(--secondColor);
+    margin: 50px auto;
+    font-size: large;
+    text-transform: capitalize;
+    border: none;
+}

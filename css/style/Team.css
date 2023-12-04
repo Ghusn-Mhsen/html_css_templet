@@ -1,0 +1,48 @@
+.team-section {
+    position: relative;
+    background-image: url('../../images//background/background/background3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.team-content {
+    overflow: hidden;
+    padding: 120px 0;
+    width: 70%;
+    margin: auto;
+}
+
+.team-item {
+    float: left;
+    width: 50%;
+    color: var(--secondColor);
+}
+
+.team-item .team-layer {
+    padding: 22px 2px 24px 100px;
+    position: relative;
+
+}
+
+.team-item .team-layer img {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border-radius: 50%;
+}
+
+
+
+.team-item .team-layer span {
+    color: var(--mainColor);
+    margin-top: 7px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.team-item .desc {
+    font-size: 17px;
+    line-height: 1.2;
+
+}

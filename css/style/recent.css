@@ -1,0 +1,48 @@
+.recent-content {
+    overflow: hidden;
+}
+
+.recent-item {
+    float: left;
+    width: 30%;
+}
+
+.recent-item.item-center {
+    margin: 0 5%;
+}
+
+
+.recent-item .item-img {
+    width: 90%;
+}
+
+.recent-item .item-img img {
+    width: 100%;
+}
+
+.recent-item .item-list li {
+    display: inline-block;
+    margin: 7px;
+
+}
+
+.recent-item .item-list li i {
+    padding: 2px;
+    color: var(--mainColor);
+
+}
+
+.recent-item .item-tittle {
+    margin: 5px 0;
+}
+
+.recent-item .item-desc {
+    margin: 7px 0;
+}
+
+.recent-item .item-link {
+    margin: 5px 0;
+    color: var(--mainColor);
+    text-transform: capitalize;
+}
+
